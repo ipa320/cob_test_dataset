@@ -1,0 +1,35 @@
+---
+tolerance: 0.1
+
+bagfiles:
+  - name: withMilk
+    tolerance: 0.2
+    path: /bagfiles/withMilk.bag
+    objects:
+    - label: milk
+      tolerance: 0.5
+      position : [-0.185923965272, -0.317013647517, 1.02376926505]
+      orientation : [0 , 0, 0]
+    
+
+  - name: withZwieback
+    tolerance: 0.5
+    path: /bagfiles/withZwieback.bag
+    objects:
+    - label: milk
+      position : [0.0158043610448, -0.312243447318, 1.03793074239]
+      orientation : [0 , 0 , 0]
+    - label: zwieback
+      tolerance: 1.2
+      position : [-0.176472140473, -0.32538281785, 0.92521973675]
+      orientation : [0 , 0 , 0]
+
+      
+  - name: withoutMilk
+    path: /bagfiles/withoutMilk.bag
+    objects:
+    - label: milk
+      position : [-0.185923965272 , -0.317013647517, 1.02376926505]
+      orientation : [0, 0, 0]
+
+ 
