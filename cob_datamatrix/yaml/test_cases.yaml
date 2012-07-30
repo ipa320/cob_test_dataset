@@ -1,14 +1,15 @@
 ---
 tolerance: 0.1
+PKG: cob_datamatrix
 
 test_bag:
   - name: withMilk
-    bag_path: /bagfiles/withMilk.bag
-    yaml_path: /yaml/withMilk.yaml
+    bag_path: /test/bagfiles/withMilk.bag
+    yaml_path: /test/yaml/withMilk.yaml
     tolerance: 0.5
 
   - name: withoutMilk
-    bag_path: /bagfiles/withoutMilk.bag
-    yaml_path: /yaml/withoutMilk.yaml
+    bag_path: /test/bagfiles/withoutMilk.bag
+    yaml_path: /test/yaml/withoutMilk.yaml
     tolerance: 0.2
 
