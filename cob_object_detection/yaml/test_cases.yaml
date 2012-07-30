@@ -1,20 +1,20 @@
 ---
 tolerance: 0.1
+PKG: cob_object_detection
 
 test_bag:
   - name: withMilk
-    bag_path: /bagfiles/withMilk.bag
-    yaml_path: /yaml/withMilk.yaml
-    tolerance: 0.5
-
-  - name: withoutMilk
-    bag_path: /bagfiles/withoutMilk.bag
-    yaml_path: /yaml/withoutMilk.yaml
+    bag_path: /test/bagfiles/withMilk.bag
+    yaml_path: /test/yaml/withMilk.yaml
     tolerance: 0.5
 
   - name: withZwieback
-    bag_path: /bagfiles/withZwieback.bag
-    yaml_path: /yaml/withZwieback.yaml
+    bag_path: /test/bagfiles/withZwieback.bag
+    yaml_path: /test/yaml/withZwieback.yaml
     tolerance: 0.5
 
+  - name: withoutMilk
+    bag_path: /test/bagfiles/withoutMilk.bag
+    yaml_path: /test/yaml/withoutMilk.yaml
+    tolerance: 0.5
 
