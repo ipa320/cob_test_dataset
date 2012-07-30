@@ -2,9 +2,13 @@
 tolerance: 0.1
 
 test_bag:
+  - name: withMilk
+    bag_path: /bagfiles/withMilk.bag
+    yaml_path: /yaml/withMilk.yaml
+    tolerance: 0.5
+
   - name: withoutMilk
     bag_path: /bagfiles/withoutMilk.bag
     yaml_path: /yaml/withoutMilk.yaml
-    tolerance: 0.5
-
+    tolerance: 0.2
 
