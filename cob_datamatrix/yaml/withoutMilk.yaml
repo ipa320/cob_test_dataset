@@ -1,5 +1,1 @@
 objects:
-    - label: milk
-      tolerance: 0
-      position : [0,0,0]
-      orientation : [0 , 0, 0]
