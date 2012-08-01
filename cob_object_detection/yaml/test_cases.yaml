@@ -1,6 +1,7 @@
 ---
 tolerance: 0.1
 PKG: cob_object_detection
+mode: delay
 
 test_bag:
   - name: withMilk
