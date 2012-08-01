@@ -1,6 +1,7 @@
 ---
 tolerance: 0.1
 PKG: cob_datamatrix
+mode : default
 
 test_bag:
   - name: withMilk
