@@ -4,6 +4,10 @@ PKG: cob_object_detection
 mode: delay
 
 test_bag:
+  - name: fakeMilk
+    bag_path: /test/bagfiles/fakeMilk.bag
+    yaml_path: /test/yaml/fakeMilk.yaml
+    tolerance: 0.5
   - name: withMilk
     bag_path: /test/bagfiles/withMilk.bag
     yaml_path: /test/yaml/withMilk.yaml
